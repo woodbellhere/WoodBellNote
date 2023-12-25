@@ -18,10 +18,12 @@ hero:
       link: /
 
 features:
-  - title: Feature A
+  - title: 学习“台账”
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: 手写题目汇总
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 待整理的本地笔记
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 待定的读书笔记部分
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

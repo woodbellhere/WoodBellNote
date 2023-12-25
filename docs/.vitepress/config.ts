@@ -32,7 +32,7 @@ export default defineConfig({
       {
         text: "待整理文字",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
+          { text: "BFC", link: "/notes/BFC" },
           { text: "Runtime API Examples", link: "/api-examples" },
         ],
       },
