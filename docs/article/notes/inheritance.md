@@ -30,4 +30,4 @@ font-family， font-size，color 等
 2 如果不来自层叠值，则进一步算是否来自可继承的属性
 3 如果是，则设定值等于父元素的计算值 这也就是继承
 3 如果不是，则直接使用初始值
-![Inheritance](docs/article/notes/public/inheritance.png)
+![Inheritance](public/inheritance.png)

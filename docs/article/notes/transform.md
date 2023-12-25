@@ -45,4 +45,4 @@ skew 接受 x，y 两个角度，运行似乎是所谓的[ax,ay]
 
 参数一共六个值，思路是一个三维的齐次矩阵，六个值两两是第一，二和四列的值
 matrix3d 一共十六个参数，也是一个三维的齐次矩阵，十六个值四四为一列
-![Transform Matrix](docs/article/notes/public/transformMatrix.png)
+![Transform Matrix](public/transformMatrix.png)

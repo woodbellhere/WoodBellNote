@@ -1,6 +1,6 @@
 # 层叠与权重
 
-# 权重规则按处理顺序依次为
+## 权重规则按处理顺序依次为
 
 样式来源提供的权重
 specificity 计算规则提供的权重
@@ -8,7 +8,7 @@ specificity 计算规则提供的权重
 DOM 树继承的 style
 ![Origin Order](public/originOrder.png)
 
-# 样式来源提供的权重
+## 样式来源提供的权重
 
     是指浏览器自己也会设置一些默认样式，比如说heading类都"自动"加粗黑体，然后上下margin吧？list都“自动”加左部原点和padding吧？
     	浏览器自己加的一般叫user-agent style
@@ -19,7 +19,7 @@ DOM 树继承的 style
 
 !important 的优先级还是最高
 
-# specificity 计算规则提供的权重
+## specificity 计算规则提供的权重
 
     规则集里每一条规则都算数
     内联style属性最高
@@ -41,9 +41,9 @@ DOM 树继承的 style
 
 所以手动改选择器权重的时候就想俩，一个升级就搞复杂一点，降级就搞简单一点
 
-# 代码顺序提供的权重
+## 代码顺序提供的权重
 
-# DOM 树继承的 style
+## DOM 树继承的 style
 
     沿DOM树继承
     主要是color，font族，text族，list族，word，space，letter等主要是行内属性，border-collapse和sapcing也能继承
@@ -51,9 +51,9 @@ DOM 树继承的 style
 
 设置 initial 可以手动恢复元素的默认值（基本都有），取消最后计算出来的属性值
 
-# 权重规则经验总结
+## 权重规则经验总结
 
-    样式来源权重 》specifity 》 代码先后顺序
+    样式来源权重 > specifity > 代码先后顺序
     少用ID，少用! Important
     简写属性可能会覆盖其他属性，要慎重，尤其是font
     粒度越小的权重越高，且大于关系是绝对的，n个元素选择也比不上一个类选择

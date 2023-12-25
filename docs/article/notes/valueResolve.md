@@ -1,8 +1,14 @@
+# css 的值解析规则
+
+## 基本说明
+
 所有属性其实都有默认值
 浏览器自己指定一个 font-size，rem 参考这个值
 所有相对值都会转换为 px
 font-size 设置中的比例和 em 都会参考父元素 font-size
 length/长度设置中的比例都会参考父元素的 width，em 则会参考当前的 font-szie
+
+## 值的写入/处理顺序
 
 1 书写时指定的值
 2 层叠 cascaded 值处理冲突 浏览器一般设置 16px 的 font-szie
@@ -12,6 +18,8 @@ length/长度设置中的比例都会参考父元素的 width，em 则会参考�
 5 使用 used 值 基于布局的最后计算结果
 6 实际值 在浏览器限制下的使用值（比如有时候四舍五入）
 
+## 不同值的转换
+
 相对值单位如何转换为绝对值单位
 
 - 相对单位的参考对象是父元素
@@ -20,4 +28,4 @@ length/长度设置中的比例都会参考父元素的 width，em 则会参考�
 - em 参考父或现元素 font
 - vh 和 vw 基于浏览器视口
 
-![valueResolve](docs/article/notes/public/valueResolve.png)
+![valueResolve](public/valueResolve.png)

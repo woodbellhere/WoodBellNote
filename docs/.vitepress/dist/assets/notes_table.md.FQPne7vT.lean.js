@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,R as o}from"./chunks/framework.TbLI3deC.js";const m=JSON.parse('{"title":"表格的一些注意点","description":"","frontmatter":{},"headers":[],"relativePath":"notes/table.md","filePath":"notes/table.md"}'),r={name:"notes/table.md"},n=o("",7),l=[n];function s(c,d,i,h,_,p){return e(),t("div",null,l)}const u=a(r,[["render",s]]);export{m as __pageData,u as default};

@@ -1,15 +1,15 @@
 # position 的简单了解
 
-# static
+## static
 
 默认是符合文档流的 static
 
-# static 和 relative
+## static 和 relative
 
 用 position 定位基本就默认要一个 relative 的容器了
 relative 用 static 的定位做偏移
 
-# absolute
+## absolute
 
 absolute 概括来说就是会跳出文档流，基于非 static 的元素做偏移
 不会对周边元素造成影响，但可能会覆盖它们（也是失去正常互动的一种）
@@ -18,11 +18,11 @@ absolute 概括来说就是会跳出文档流，基于非 static 的元素做偏
 边角信息本身一个 absolute 容器指定位置
 包裹边角信息的容器需要是 relative，来让边角信息按照 absolute 定位
 
-# fixed
+## fixed
 
 fixed 则基于视口的位置做偏移，跳出文档流
 
-# sticky
+## sticky
 
 一般按照正常文档流做定位
 当元素挪出视口时，基本上按照 fixed 做定位

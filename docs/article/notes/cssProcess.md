@@ -12,7 +12,7 @@
 
 ### 计算/处理最终的 css 值
 
-[Value Resolve](valueResolve.md)
+[Value Resolve](public/valueResolve.png)
 
 ## 4 形成 cssom
 
@@ -20,4 +20,4 @@
 
 ## 6 浏览器形成 视觉格式化模型 visual formatting model
 
-![Css Process](docs/article/notes/public/cssProcess.png)
+![Css Process](public/cssProcess.png)
