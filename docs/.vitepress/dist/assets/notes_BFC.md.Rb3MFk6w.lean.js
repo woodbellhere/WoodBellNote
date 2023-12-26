@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,R as o}from"./chunks/framework.OFllvWJp.js";const m=JSON.parse('{"title":"BFC","description":"","frontmatter":{},"headers":[],"relativePath":"notes/BFC.md","filePath":"notes/BFC.md"}'),r={name:"notes/BFC.md"},i=o("",11),n=[i];function c(l,s,h,f,d,b){return e(),t("div",null,n)}const p=a(r,[["render",c]]);export{m as __pageData,p as default};

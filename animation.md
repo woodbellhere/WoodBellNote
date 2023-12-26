@@ -1,0 +1,8 @@
+- 动画
+- v-if 或 v-show 乃至 v-bind 绑定 class 都会破坏动画效果,n 如说切换时由于会同时切换，会导致很多有延时效果的组件同时存在，并且按照 vue 的风格堆叠在 同一个 dom 里
+- transition 组件专门用来干这个，但我感觉更离谱
+- 根据 transition 中的 name 可以自定义六个 class
+- name-enter-from，name-enter-to，name-enter-active， name-leave-from， name-leave-to， name-leave-active，定义进出动画的开始和结束状态以及整个中间状态
+- transition 的属性中 mode 有专门指定 out-in 这种上一个走了下一个再进场的，也有反过来的
+- 要想实现动画在不同元素之间的切换，就真的要在 tranistion 中塞多个不同元素，如果用动态 class 绑定的话需要一起绑定 key，让 vue 知道这里面是不同的元素
+- 如果绑定的是 component，则默认是不同元素，不用多绑 key

@@ -16,6 +16,32 @@ export default defineConfig({
     // 这里一个对象就会在目录上自然分一组
     sidebar: [
       {
+        text: "Vue集合",
+        items: [
+          { text: "Vue3的新变化和新优化", link: "/vue/changes&Performance" },
+          { text: "Vue的template与其解析", link: "/vue/template" },
+          { text: "Vue指令的用法和注意事项", link: "/vue/directive" },
+        ],
+      },
+      {
+        text: "工程化相关内容",
+        items: [
+          { text: "模块化历史梳理", link: "/engineering/moduleHistory" },
+          {
+            text: "构建工具的发明动机",
+            link: "/engineering/motivationOfBuild",
+          },
+          {
+            text: "webpack的使用说明",
+            link: "/engineering/webpack",
+          },
+          {
+            text: "vite的使用说明",
+            link: "/engineering/vite",
+          },
+        ],
+      },
+      {
         text: "前端学习记录",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
@@ -66,5 +92,11 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+    footer: {
+      copyright: "Copyright © 2023-present WooBell",
+    },
+    search: {
+      provider: "local",
+    },
   },
 });

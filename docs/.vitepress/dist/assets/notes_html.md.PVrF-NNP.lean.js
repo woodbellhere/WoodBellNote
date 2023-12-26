@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as t,R as r}from"./chunks/framework.TbLI3deC.js";const u=JSON.parse('{"title":"HTML","description":"","frontmatter":{},"headers":[],"relativePath":"notes/html.md","filePath":"notes/html.md"}'),o={name:"notes/html.md"},i=r("",21),l=[i];function h(d,n,s,c,p,m){return e(),t("div",null,l)}const _=a(o,[["render",h]]);export{u as __pageData,_ as default};

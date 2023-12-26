@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t,R as r}from"./chunks/framework.OFllvWJp.js";const u=JSON.parse('{"title":"喜闻乐见的居中","description":"","frontmatter":{},"headers":[],"relativePath":"notes/center.md","filePath":"notes/center.md"}'),n={name:"notes/center.md"},o=r("",7),c=[o];function s(i,l,d,h,_,p){return a(),t("div",null,c)}const m=e(n,[["render",s]]);export{u as __pageData,m as default};
