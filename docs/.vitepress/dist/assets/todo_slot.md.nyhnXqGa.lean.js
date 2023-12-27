@@ -1,0 +1,1 @@
+import{_ as l,o as t,c as i,R as o}from"./chunks/framework.OFllvWJp.js";const x=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"todo/slot.md","filePath":"todo/slot.md"}'),s={name:"todo/slot.md"},p=o("",6),e=[p];function a(r,d,_,c,n,m){return t(),i("div",null,e)}const h=l(s,[["render",a]]);export{x as __pageData,h as default};

@@ -1,0 +1,1 @@
+import{_ as i,o as s,c as a,R as l}from"./chunks/framework.OFllvWJp.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"todo/vueRouter.md","filePath":"todo/vueRouter.md"}'),p={name:"todo/vueRouter.md"},t=l("",3),n=[t];function h(e,k,E,r,o,d){return s(),a("div",null,n)}const y=i(p,[["render",h]]);export{c as __pageData,y as default};

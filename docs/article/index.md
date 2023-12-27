@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Vue记录
-      link: vue
+      link: /vue/template
     - theme: brand
       text: 模块 打包和工程化尝试
       link: /engineering/moduleHistory
@@ -18,13 +18,13 @@ hero:
       link: /notes/BFC
     - theme: alt
       text: JS记录
-      link: /vue
+      link: /
     - theme: alt
       text: 手写汇总
-      link: /handWriting/api-examples
+      link: /
     - theme: alt
       text: 待整理文字
-      link: /todo
+      link: /todo/components
 
 features:
   - icon: 📖

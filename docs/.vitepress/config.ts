@@ -21,12 +21,26 @@ export default defineConfig({
           { text: "Vue3的新变化和新优化", link: "/vue/changes&Performance" },
           { text: "Vue的template与其解析", link: "/vue/template" },
           { text: "Vue指令的用法和注意事项", link: "/vue/directive" },
+          { text: "VueDiff算法的文字性理解", link: "/vue/VueAlog" },
+          { text: "Vue中的生命周期", link: "/vue/lifeCycle" },
+          { text: "Vue中的options API", link: "/vue/options" },
+          {
+            text: "Vue中的compositional API和setup函数",
+            link: "/vue/mixin&setup",
+          },
+          { text: "setup语法糖", link: "/vue/setup" },
+          { text: "响应式全家桶（还有整理的余地）", link: "/vue/reactive" },
+          { text: "组件间数据传递/通信", link: "/vue/propsTransfer" },
+          { text: "路由和vue-router", link: "/vue/router" },
+          { text: "状态管理和vuex/pinia", link: "/vue/vuex&pinia" },
+          { text: "render函数(占坑)", link: "/vue/render" },
         ],
       },
       {
         text: "工程化相关内容",
         items: [
           { text: "模块化历史梳理", link: "/engineering/moduleHistory" },
+          { text: "模块常用操作", link: "/engineering/modulePractice" },
           {
             text: "构建工具的发明动机",
             link: "/engineering/motivationOfBuild",
@@ -42,13 +56,6 @@ export default defineConfig({
         ],
       },
       {
-        text: "前端学习记录",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-      {
         text: "手写汇总",
         items: [
           { text: "Markdown Examples", link: "/markdown-examples" },
@@ -56,7 +63,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "待整理文字",
+        text: "html+css常识",
         items: [
           { text: "html标签", link: "/notes/html" },
           { text: "table的注意点", link: "/notes/table" },
@@ -85,6 +92,19 @@ export default defineConfig({
         items: [
           { text: "网页设计原则", link: "/design/designPrinciple" },
           { text: "Runtime API Examples", link: "/api-examples" },
+        ],
+      },
+      {
+        text: "待整理/文档缓冲区",
+        items: [
+          { text: "vue-router再整理", link: "/todo/vueRouter" },
+          { text: "vuex再整理", link: "/todo/vuex" },
+          { text: "vue3零碎内容", link: "/todo/vue3" },
+          { text: "slot零碎内容", link: "/todo/slot" },
+          { text: "watch系列零碎内容", link: "/todo/watchSeries" },
+          { text: "组件系列再整理", link: "/todo/components" },
+          { text: "设计要素再整理", link: "/todo/designFactor" },
+          { text: "动画零碎内容", link: "/todo/animation" },
         ],
       },
     ],
