@@ -58,8 +58,14 @@ export default defineConfig({
       {
         text: "手写汇总",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "typeof相关", link: "/handWriting/typeof" },
+          { text: "instanceof相关", link: "/handWriting/instanceof" },
+          { text: "toString终极方案", link: "/handWriting/toString" },
+          { text: "promise系列(但没promise)", link: "/handWriting/promise" },
+          { text: "new", link: "/handWriting/new" },
+          { text: "数组去重", link: "/handWriting/unique" },
+          { text: "数组扁平化", link: "/handWriting/flat" },
+          { text: "深克隆(先开个坑)", link: "/handWriting/deepClone" },
         ],
       },
       {
