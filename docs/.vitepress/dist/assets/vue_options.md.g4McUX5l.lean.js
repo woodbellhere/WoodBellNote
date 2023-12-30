@@ -1,1 +1,0 @@
-import{_ as i,o as s,c as a,R as t}from"./chunks/framework.OFllvWJp.js";const g=JSON.parse('{"title":"选项式诸内容","description":"","frontmatter":{},"headers":[],"relativePath":"vue/options.md","filePath":"vue/options.md"}'),l={name:"vue/options.md"},h=t("",11),n=[h];function e(k,p,d,o,r,c){return s(),a("div",null,n)}const y=i(l,[["render",e]]);export{g as __pageData,y as default};

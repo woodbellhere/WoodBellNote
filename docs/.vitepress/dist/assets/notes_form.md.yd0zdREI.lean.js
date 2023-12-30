@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as t,R as l}from"./chunks/framework.OFllvWJp.js";const b=JSON.parse('{"title":"form 的基本要点","description":"","frontmatter":{},"headers":[],"relativePath":"notes/form.md","filePath":"notes/form.md"}'),o={name:"notes/form.md"},r=l("",7),s=[r];function c(n,i,d,h,m,_){return a(),t("div",null,s)}const p=e(o,[["render",c]]);export{b as __pageData,p as default};

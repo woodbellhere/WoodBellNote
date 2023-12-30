@@ -1,0 +1,1 @@
+import{_ as i,o as l,c as e,R as a}from"./chunks/framework.mPPLtEmG.js";const k=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/VueAlog.md","filePath":"vue/VueAlog.md"}'),t={name:"vue/VueAlog.md"},d=a("",12),o=[d];function u(r,n,c,f,h,s){return l(),e("div",null,o)}const _=i(t,[["render",u]]);export{k as __pageData,_ as default};

@@ -16,7 +16,9 @@ function recurFlat(arr) {
 }
 ```
 
-## 循环实现
+## some 实现
+
+这个其实挺巧妙，但目前只能巧妙一层
 
 ```js
 function loopFlat(arr) {
@@ -27,7 +29,7 @@ function loopFlat(arr) {
 }
 ```
 
-## 更繁琐的一般写法
+## 一般循环
 
 ```js
 let result = [];

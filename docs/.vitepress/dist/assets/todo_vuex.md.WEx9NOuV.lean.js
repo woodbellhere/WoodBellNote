@@ -1,1 +1,0 @@
-import{_ as i,o as s,c as t,R as a}from"./chunks/framework.OFllvWJp.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"todo/vuex.md","filePath":"todo/vuex.md"}'),l={name:"todo/vuex.md"},e=a("",19),n=[e];function p(h,k,o,r,E,d){return s(),t("div",null,n)}const g=i(l,[["render",p]]);export{c as __pageData,g as default};

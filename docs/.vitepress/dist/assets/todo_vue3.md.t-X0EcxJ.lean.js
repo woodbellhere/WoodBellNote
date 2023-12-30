@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as a,R as l}from"./chunks/framework.mPPLtEmG.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"todo/vue3.md","filePath":"todo/vue3.md"}'),t={name:"todo/vue3.md"},p=l("",10),e=[p];function n(h,k,r,d,E,o){return i(),a("div",null,e)}const u=s(t,[["render",n]]);export{g as __pageData,u as default};

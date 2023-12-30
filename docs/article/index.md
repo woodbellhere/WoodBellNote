@@ -21,7 +21,7 @@ hero:
       link: /
     - theme: alt
       text: 手写汇总
-      link: /
+      link: /handWriting/new
     - theme: alt
       text: 待整理文字
       link: /todo/components

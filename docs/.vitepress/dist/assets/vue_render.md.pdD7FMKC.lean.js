@@ -1,0 +1,1 @@
+import{_ as s,o as i,c as a,R as t}from"./chunks/framework.mPPLtEmG.js";const g=JSON.parse('{"title":"渲染函数，模板底层","description":"","frontmatter":{},"headers":[],"relativePath":"vue/render.md","filePath":"vue/render.md"}'),n={name:"vue/render.md"},h=t("",2),l=[h];function e(k,p,r,E,d,o){return i(),a("div",null,l)}const F=s(n,[["render",e]]);export{g as __pageData,F as default};

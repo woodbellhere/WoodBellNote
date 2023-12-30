@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as l,R as r}from"./chunks/framework.OFllvWJp.js";const u=JSON.parse('{"title":"flex 布局的认识","description":"","frontmatter":{},"headers":[],"relativePath":"notes/flex.md","filePath":"notes/flex.md"}'),t={name:"notes/flex.md"},o=r("",19),i=[o];function n(s,f,h,c,d,x){return a(),l("div",null,i)}const w=e(t,[["render",n]]);export{u as __pageData,w as default};

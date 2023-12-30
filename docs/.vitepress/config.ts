@@ -66,6 +66,18 @@ export default defineConfig({
           { text: "数组去重", link: "/handWriting/unique" },
           { text: "数组扁平化", link: "/handWriting/flat" },
           { text: "深克隆(先开个坑)", link: "/handWriting/deepClone" },
+          { text: "二分搜索", link: "/handWriting/binSearch" },
+        ],
+      },
+      {
+        text: "浏览器相关",
+        items: [{ text: "从url到页面", link: "/browser/urlToPage" }],
+      },
+      {
+        text: "网络相关",
+        items: [
+          { text: "get和post", link: "/network/get&post" },
+          { text: "进程与线程", link: "/network/process&thread" },
         ],
       },
       {

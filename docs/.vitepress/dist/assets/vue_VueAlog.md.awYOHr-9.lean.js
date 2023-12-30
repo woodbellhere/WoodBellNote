@@ -1,1 +1,0 @@
-import{_ as i,o as l,c as a,R as s}from"./chunks/framework.OFllvWJp.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/VueAlog.md","filePath":"vue/VueAlog.md"}'),e={name:"vue/VueAlog.md"},t=s("",13),n=[t];function h(d,k,o,r,p,c){return l(),a("div",null,n)}const y=i(e,[["render",h]]);export{f as __pageData,y as default};
